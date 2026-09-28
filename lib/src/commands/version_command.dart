@@ -1,7 +1,7 @@
 import '../cli/base_command.dart';
 import '../cli/exit_codes.dart';
 
-const String kPackageVersion = '3.0.0';
+const String kPackageVersion = '1.0.0';
 
 /// Displays package version.
 class VersionCommand extends BaseCommand {
@@ -9,7 +9,8 @@ class VersionCommand extends BaseCommand {
   final String name = 'version';
 
   @override
-  final String description = 'Print the current flutter_architect CLI version.';
+  final String description =
+      'Print the current flutter_architecture_kit CLI version.';
 
   @override
   String get invocation => 'flutter-architect version';
@@ -18,7 +19,7 @@ class VersionCommand extends BaseCommand {
 
   @override
   Future<int> run() async {
-    logger.info('flutter_architect version $kPackageVersion');
+    logger.info('flutter_architecture_kit version $kPackageVersion');
     return ExitCodes.success;
   }
 }
