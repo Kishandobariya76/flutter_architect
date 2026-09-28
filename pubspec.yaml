@@ -1,6 +1,6 @@
 name: flutter_architecture_kit
 description: A production-ready Flutter CLI and architecture kit for Clean Architecture, BLoC, API, and project scaffolding.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/Kishandobariya76/flutter_architect
 repository: https://github.com/Kishandobariya76/flutter_architect
 issue_tracker: https://github.com/Kishandobariya76/flutter_architect/issues

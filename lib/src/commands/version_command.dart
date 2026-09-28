@@ -1,7 +1,7 @@
 import '../cli/base_command.dart';
 import '../cli/exit_codes.dart';
 
-const String kPackageVersion = '1.0.0';
+const String kPackageVersion = '1.0.1';
 
 /// Displays package version.
 class VersionCommand extends BaseCommand {
