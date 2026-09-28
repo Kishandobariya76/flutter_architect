@@ -1,0 +1,38 @@
+/// Production-grade Flutter Architecture CLI & toolkit.
+library;
+
+export 'src/cli/command_runner.dart';
+export 'src/cli/exit_codes.dart';
+export 'src/cli/logger.dart';
+export 'src/cli/prompts.dart';
+export 'src/configuration/config_resolver.dart';
+export 'src/configuration/project_config.dart';
+export 'src/doctor/doctor_check.dart';
+export 'src/doctor/doctor_runner.dart';
+export 'src/filesystem/file_manager.dart';
+export 'src/filesystem/generation_result.dart';
+export 'src/generators/api_generator.dart';
+export 'src/generators/base_generator.dart';
+export 'src/generators/bloc_generator.dart';
+export 'src/generators/bottomsheet_generator.dart';
+export 'src/generators/core_generator.dart';
+export 'src/generators/cubit_generator.dart';
+export 'src/generators/datasource_generator.dart';
+export 'src/generators/dialog_generator.dart';
+export 'src/generators/feature_generator.dart';
+export 'src/generators/firebase_generator.dart';
+export 'src/generators/flavors_generator.dart';
+export 'src/generators/localization_generator.dart';
+export 'src/generators/model_generator.dart';
+export 'src/generators/page_generator.dart';
+export 'src/generators/repository_generator.dart';
+export 'src/generators/theme_generator.dart';
+export 'src/generators/usecase_generator.dart';
+export 'src/generators/widget_generator.dart';
+export 'src/naming/naming_utils.dart';
+export 'src/templates/template_engine.dart';
+export 'src/templates/template_registry.dart';
+export 'src/utils/platform_utils.dart';
+export 'src/utils/pubspec_utils.dart';
+export 'src/validation/architecture_validator.dart';
+export 'src/validation/validation_result.dart';
