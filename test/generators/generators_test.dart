@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'package:flutter_architect/flutter_architect.dart';
+import 'package:flutter_architecture_kit/flutter_architecture_kit.dart';
 import 'package:test/test.dart';
 
 void main() {

@@ -1,8 +1,8 @@
-# Flutter Architect 🏗️
+# Flutter Architecture Kit 🏗️
 
-> A production-ready Flutter CLI for generating and maintaining Clean Architecture, BLoC, API layers, and enterprise project scaffolding.
+> A production-ready Flutter CLI and architecture kit for generating and maintaining Clean Architecture, BLoC, API layers, and enterprise project scaffolding.
 
-[![Pub Version](https://img.shields.io/pub/v/flutter_architect.svg?style=flat-square)](https://pub.dev/packages/flutter_architect)
+[![Pub Version](https://img.shields.io/pub/v/flutter_architecture_kit.svg?style=flat-square)](https://pub.dev/packages/flutter_architecture_kit)
 [![Dart SDK](https://img.shields.io/badge/Dart-3.0+-0175C2.svg?style=flat-square&logo=dart)](https://dart.dev)
 [![Flutter](https://img.shields.io/badge/Flutter-3.0+-02569B.svg?style=flat-square&logo=flutter)](https://flutter.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
@@ -13,17 +13,17 @@
 
 ## 📖 Introduction
 
-**Flutter Architect** is a developer CLI inspired by Angular CLI, Rails generators, and Mason scaffolding. It automates the generation and maintenance of scalable **Clean Architecture + BLoC + Feature-first** Flutter projects.
+**Flutter Architecture Kit** (`flutter-architect`) is a developer CLI inspired by Angular CLI, Rails generators, and Mason scaffolding. It automates the generation and maintenance of scalable **Clean Architecture + BLoC + Feature-first** Flutter projects.
 
-Instead of writing repetitive boilerplate or relying on unstructured folder copiers, Flutter Architect generates **real, strongly typed, compilable Dart code** with modern error handling (`Result<T>`, typed failures), Dio networking with interceptors, GetIt dependency injection, Material 3 theming, build flavors, and CI/CD validation.
+Instead of writing repetitive boilerplate or relying on unstructured folder copiers, Flutter Architecture Kit generates **real, strongly typed, compilable Dart code** with modern error handling (`Result<T>`, typed failures), Dio networking with interceptors, GetIt dependency injection, Material 3 theming, build flavors, and CI/CD validation.
 
-> 💡 **Design Philosophy**: By default, Flutter Architect **does not generate an `entities/` folder**, eliminating redundant model-to-entity mapping boilerplate in 95% of real-world apps while preserving strict architectural boundaries between Domain, Data, and Presentation.
+> 💡 **Design Philosophy**: By default, Flutter Architecture Kit **does not generate an `entities/` folder**, eliminating redundant model-to-entity mapping boilerplate in 95% of real-world apps while preserving strict architectural boundaries between Domain, Data, and Presentation.
 
 ---
 
-## 💡 Why Flutter Architect?
+## 💡 Why Flutter Architecture Kit?
 
-| Problem in Flutter Teams | Solution with Flutter Architect |
+| Problem in Flutter Teams | Solution with Flutter Architecture Kit |
 | :--- | :--- |
 | **Architectural Drift** | Enforces a strict, consistent Clean Architecture structure across all features. |
 | **Boilerplate Fatigue** | Generates working BLoCs, Models, Repositories, UseCases, and DataSources in 1 command. |
@@ -36,7 +36,7 @@ Instead of writing repetitive boilerplate or relying on unstructured folder copi
 
 ## 🏛️ Architecture Overview
 
-Flutter Architect scaffolds a modular **Clean Architecture** with a **Feature-first** organization:
+Flutter Architecture Kit scaffolds a modular **Clean Architecture** with a **Feature-first** organization:
 
 ```mermaid
 graph TD
@@ -74,20 +74,22 @@ graph TD
 
 ## 📦 Installation
 
-Activate `flutter_architect` globally using the Dart SDK:
+Activate `flutter_architecture_kit` globally using the Dart SDK:
 
 ```bash
-dart pub global activate flutter_architect
+dart pub global activate flutter_architecture_kit
 ```
 
 Make sure your system PATH contains the pub cache bin directory:
 * **macOS / Linux**: `~/.pub-cache/bin`
 * **Windows**: `%LOCALAPPDATA%\Pub\Cache\bin`
 
-Verify installation:
+Verify installation (both `flutter-architect` and `flutter-architecture-kit` binaries are available):
 
 ```bash
 flutter-architect --version
+# or
+flutter-architecture-kit --version
 ```
 
 ---

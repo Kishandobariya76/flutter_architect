@@ -1,4 +1,4 @@
-import 'package:flutter_architect/flutter_architect.dart';
+import 'package:flutter_architecture_kit/flutter_architecture_kit.dart';
 
 void main() async {
   // 1. Programmatic Naming Utilities

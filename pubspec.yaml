@@ -1,6 +1,6 @@
-name: flutter_architect
-description: A production-ready Flutter CLI for generating and maintaining Clean Architecture, BLoC, API, and project scaffolding.
-version: 3.0.0
+name: flutter_architecture_kit
+description: A production-ready Flutter CLI and architecture kit for Clean Architecture, BLoC, API, and project scaffolding.
+version: 1.0.0
 homepage: https://github.com/Kishandobariya76/flutter_architect
 repository: https://github.com/Kishandobariya76/flutter_architect
 issue_tracker: https://github.com/Kishandobariya76/flutter_architect/issues
@@ -16,8 +16,10 @@ environment:
   sdk: '>=3.0.0 <4.0.0'
 
 executables:
-  flutter-architect: flutter_architect
-  flutter_architect: flutter_architect
+  flutter-architect: flutter_architecture_kit
+  flutter_architect: flutter_architecture_kit
+  flutter-architecture-kit: flutter_architecture_kit
+  flutter_architecture_kit: flutter_architecture_kit
 
 dependencies:
   args: ^2.5.0

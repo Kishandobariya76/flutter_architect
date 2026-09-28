@@ -1,4 +1,4 @@
-import 'package:flutter_architect/src/templates/template_engine.dart';
+import 'package:flutter_architecture_kit/src/templates/template_engine.dart';
 import 'package:test/test.dart';
 
 void main() {

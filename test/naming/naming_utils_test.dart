@@ -1,4 +1,4 @@
-import 'package:flutter_architect/src/naming/naming_utils.dart';
+import 'package:flutter_architecture_kit/src/naming/naming_utils.dart';
 import 'package:test/test.dart';
 
 void main() {
